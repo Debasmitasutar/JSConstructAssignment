@@ -1,0 +1,12 @@
+let randomVal1=Math.floor(Math.random()*1000);
+let randomVal2=Math.floor(Math.random()*1000);
+let randomVal3=Math.floor(Math.random()*1000);
+let randomVal4=Math.floor(Math.random()*1000);
+let randomVal5=Math.floor(Math.random()*1000);
+console.log("Random number-"+randomVal1);
+console.log("Random number-"+randomVal2);
+console.log("Random number-"+randomVal3);
+console.log("Random number-"+randomVal4);
+console.log("Random number-"+randomVal5);
+console.log( "Min value of the arr is:",Math.min(randomVal1,randomVal2,randomVal3,randomVal4,randomVal5));
+console.log( "Max value of the arr is:",Math.max(randomVal1,randomVal2,randomVal3,randomVal4,randomVal5));
